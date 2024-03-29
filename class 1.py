@@ -11,5 +11,4 @@ class Art:
         return f"Title: {self.title}, Artist: {self.artist}, History significance: {self.history_significance}, Date Created: {self.dateproduced}" #return statement for attributes "
 
     #gettter
-    def
 
