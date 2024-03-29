@@ -7,12 +7,17 @@ class Artist:
         self.nationality= nationality
         self.artworks= []
 
+#getter functions
     def get_name(self) -> str:
         return self.name
     def get_nationality(self) -> str:
         return self.nationality
 
-
+#setter functions
+    def set_name(self, name: str) :
+        self.name = name
+    def set_nationality(self, nationality: str):
+        self.nationality = nationality
 
 
 
