@@ -21,7 +21,6 @@ class Artist:
         self.nationality = nationality
 
     from typing import List
-
 #since we want artworks to be a list
     def set_artworks(self) -> List['Art']:
         return self.artworks
