@@ -23,7 +23,6 @@ class Art:
     def get_date_produced(self) -> str:
         return self.date_produced
 
-
 #setter fucntions for the attributes in the uml class
     def set_name(self):
         self.name= name
