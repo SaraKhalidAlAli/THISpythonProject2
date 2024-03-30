@@ -32,10 +32,17 @@ print("------------------------------------------------------------------\n")
 
 #SECOND TEST CASE
 
-
 #having an opening of a new exhibition or event at the museum "Concert, Le Trio Joubran" with information like ulr and
-
 def open_new_exhibition():
     #creating the object of event website information to print
     event_website = EventWebsite("Concert, Le Trio Joubran", "Tradition of Arabic oud music and also celebrate the culture of their home country, Palestine, by setting the words of renowned poet Mahmoud Darwish to music.", "https://www.louvreabudhabi.ae/en/programmes/performing-arts/performing-arts-2", "Louvre Abu Dhabi")
 
+#Outputs for info
+    print("Announcement!!! New exhibition opened at the museum: \n")
+    print("- Event Name:",event_website.get_event_name())
+    print("- Event Description:",event_website.get_event_description())
+    print("- Location:",event_website.get_location())
+    print("- URL:",event_website.get_url())
+
+#running the test case
+open_new_exhibition()
