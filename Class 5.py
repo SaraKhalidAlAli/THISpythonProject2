@@ -15,4 +15,10 @@ class Employee:
     def get_role(self) ->str:
         return self.role
 
+#Setter functions for name and role
+    def set_name(self, name: str) -> None:
+        self.name = name
+
+    def set_role(self, role: str):
+        self.role = role
 
