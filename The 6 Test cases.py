@@ -1,7 +1,7 @@
 #First test case
 
 #importing from the other files
-from class_2 import Artist
+from class 2 import Artist
 
 def test_add_art():
     artist = Artist("Leonardo da Vinci", "Italian") #artist object
