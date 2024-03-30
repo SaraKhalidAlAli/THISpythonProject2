@@ -11,14 +11,17 @@ class Employee:
 #Getter functions for name and role
     def get_name(self) ->str:
         return self.name
-
+    # Return the name of the employee
     def get_role(self) ->str:
         return self.role
+    # Return the role of the employee
 
 #Setter functions for name and role
     def set_name(self, name: str) -> None:
         self.name = name
-
+     # Update the name of the employee with the provided value
     def set_role(self, role: str):
         self.role = role
+    # Update the role of the employee with the provided value
+
 
