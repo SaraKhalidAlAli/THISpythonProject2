@@ -77,3 +77,6 @@ def purchase_tickets():
     group_ticket_price = 63.0 * 0.5  # 50% discount for groups
 
 
+    #creating the ticket onjects for each customer for the test case to look at the different recipes people get
+
+
