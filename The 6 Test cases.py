@@ -1,7 +1,10 @@
 #FIRST TEST CASE
 
-from class_2 import Artist
 from class_1 import Art
+from class_2 import Artist
+
+
+
 def test_add_art():
     artist = Artist("Leonardo da Vinci", "Italian") #artist object
 
@@ -29,7 +32,10 @@ print("------------------------------------------------------------------\n")
 
 #SECOND TEST CASE
 
-#having an opening of a new exhibition or event at the museum "Concert, Le Trio Joubran" with information like ulr and
-def open_new_exhibition():
 
+#having an opening of a new exhibition or event at the museum "Concert, Le Trio Joubran" with information like ulr and
+
+def open_new_exhibition():
+    #creating the object of event website information to print
+    event_website = EventWebsite("Concert, Le Trio Joubran", "Tradition of Arabic oud music and also celebrate the culture of their home country, Palestine, by setting the words of renowned poet Mahmoud Darwish to music.", "https://www.louvreabudhabi.ae/en/programmes/performing-arts/performing-arts-2", "Louvre Abu Dhabi")
 
