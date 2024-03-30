@@ -8,6 +8,7 @@ class Customer:
         self.age= age
 
 #Getter functions
+#to allow external code to retrieve the values of private or protected attributes of an object without directly accessing them.
     def get_id(self) -> str:
         return self.id
         # Return the customer ID
@@ -17,3 +18,12 @@ class Customer:
     def get_age(self) -> int:
         return self.age
         # Return the customer age
+
+    def set_id(self, id: str):
+        self.id = id
+
+    def set_email(self, email: str):
+        self.email = email
+
+    def set_age(self, age: int):
+        self.age = age
