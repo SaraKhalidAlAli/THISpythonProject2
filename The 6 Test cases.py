@@ -3,6 +3,7 @@
 from class_1 import Art
 from class_2 import Artist
 from class_6 import EventWebsite
+from class_4 import Customer
 
 
 def test_add_art():
