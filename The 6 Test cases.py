@@ -67,7 +67,13 @@ def purchase_tickets():
     senior_customer = Customer("789", "senior@example.com", 70)
     group_customer = Customer("101", "group@example.com", 25)
 
-    # Define event details
+    #definig the event details
     event_name = "Concert, Le Trio Joubran"
+
+    #putting into place the ticket prices for diffrenet instances
+    adult_ticket_price = 63.0
+    child_ticket_price = 0.0  # Free for children
+    senior_ticket_price = 0.0  # Free for seniors
+    group_ticket_price = 63.0 * 0.5  # 50% discount for groups
 
 
