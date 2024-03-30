@@ -8,3 +8,11 @@ class Employee:
         self.name = name
         self.role = role
 
+#Getter functions for name and role
+    def get_name(self) ->str:
+        return self.name
+
+    def get_role(self) ->str:
+        return self.role
+
+
