@@ -28,7 +28,7 @@ def test_add_art():
 # Run the test case
 test_add_art()
 
-print("------------------------------------------------------------------\n")
+print("---------------------------------------------------------------------------\n")
 
 #SECOND TEST CASE
 
@@ -46,3 +46,13 @@ def open_new_exhibition():
 
 #running the test case
 open_new_exhibition()
+print("\n---------------------------------------------------------------------------\n")
+
+
+
+# THIRD TEST CASE
+# WITH 4 EXAMPLES
+
+#here I mixed the test cases of The purchase of tickets by an individual or tour group for an event-
+#-and with "display of payment receipts for purchasing (one or more) tickets. The final bill should be presented to the customer upon completion of the purchase."
+# where we have test cases 3, 4, 5, 6; I just wanted the output to look nice :)
