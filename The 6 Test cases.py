@@ -15,7 +15,7 @@ def test_add_art():
     artist.add_artworks(artwork2)
 
     # Output
-    print("<</*Louvre Museum Event*\>> \n")
+    print("\n<</*Louvre Museum Event*\>> \n")
     print("New artworks added to the museum:")
     for artwork in artist.set_artworks():
         print("- Name:", artwork.get_title())
@@ -26,6 +26,9 @@ def test_add_art():
 # Run the test case
 test_add_art()
 
+print("------------------------------------------------------------------\n")
+
+#second test case
 
 
 
