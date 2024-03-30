@@ -20,3 +20,18 @@ class EventWebsite:
     def get_location(self) -> str:
         return self.location
     #returning the location of the event
+
+
+#Setter functions for all the attributes
+    def set_event_name(self, event_name: str) -> None:
+        # Update the name of the event with the provided value
+        self.event_name = event_name
+
+    def set_event_description(self, event_description: str) -> None:
+        self.event_description = event_description
+
+    def set_url(self, url: str) -> None:
+        self.url = url
+
+    def set_location(self, location: str) -> None:
+        self.location = location
