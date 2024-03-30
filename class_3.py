@@ -8,7 +8,6 @@ class Ticket:
         self.price = price
         self.is_group = is_group #looks at if the ticket is for a group or individual
 
-
 #getter functions for retrieving attributes values
 
     def get_ticket_num(self) ->int:
