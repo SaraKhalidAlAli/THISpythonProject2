@@ -18,7 +18,7 @@ class Customer:
     def get_age(self) -> int:
         return self.age
         # Return the customer age
-
+#Setter function
     def set_id(self, id: str):
         self.id = id
     #setting customer ID to the provided value
@@ -28,3 +28,4 @@ class Customer:
     def set_age(self, age: int):
         self.age = age
     #setting age to the provided value
+
