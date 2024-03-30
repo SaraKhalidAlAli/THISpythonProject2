@@ -6,6 +6,8 @@ from class_6 import EventWebsite
 from class_4 import Customer
 
 
+
+
 def test_add_art():
     artist = Artist("Leonardo da Vinci", "Italian") #artist object
 
@@ -63,3 +65,8 @@ def purchase_tickets():
     child_customer = Customer("456", "child@example.com", 10)
     senior_customer = Customer("789", "senior@example.com", 70)
     group_customer = Customer("101", "group@example.com", 25)
+
+    # Define event details
+    event_name = "Concert, Le Trio Joubran"
+
+
