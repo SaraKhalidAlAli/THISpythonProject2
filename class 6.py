@@ -7,5 +7,5 @@ class EventWebsite:
         self.url = url  #storing the URL of the event
         self.location = location  #storing the location of the event
 
-
+#Getter functions for all the attributes
 
