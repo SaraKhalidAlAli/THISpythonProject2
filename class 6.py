@@ -8,4 +8,5 @@ class EventWebsite:
         self.location = location  #storing the location of the event
 
 #Getter functions for all the attributes
+    def get_event_name(self):
 
