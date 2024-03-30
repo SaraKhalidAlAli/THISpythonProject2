@@ -4,7 +4,8 @@ from class_1 import Art
 from class_2 import Artist
 from class_6 import EventWebsite
 from class_4 import Customer
-
+from Class_5 import Employee
+from class_3 import Ticket
 
 
 
