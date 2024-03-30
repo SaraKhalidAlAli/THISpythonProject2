@@ -1,6 +1,5 @@
-#First test case
+#FIRST TEST CASE
 
-#importing from the other files
 from class_2 import Artist
 from class_1 import Art
 def test_add_art():
@@ -28,8 +27,9 @@ test_add_art()
 
 print("------------------------------------------------------------------\n")
 
-#second test case
+#SECOND TEST CASE
 
-
+#having an opening of a new exhibition or event at the museum "Concert, Le Trio Joubran" with information like ulr and
+def open_new_exhibition():
 
 
