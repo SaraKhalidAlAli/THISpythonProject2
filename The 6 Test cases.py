@@ -78,5 +78,9 @@ def purchase_tickets():
 
 
     #creating the ticket onjects for each customer for the test case to look at the different recipes people get
+    adult_ticket = Ticket(1, event_name, adult_ticket_price, False)
+    child_ticket = Ticket(2, event_name, child_ticket_price, False)
+    senior_ticket = Ticket(3, event_name, senior_ticket_price, False)
+    group_ticket = Ticket(4, event_name, group_ticket_price, True)
 
 
