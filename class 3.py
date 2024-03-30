@@ -21,5 +21,14 @@ class Ticket:
         return self.price
     #retuning the the ticket price
 
+# Setter methods with parameters to update attributes
 
+    def set_ticket_num(self, ticket_num: int) -> None:
+        self.ticket_num = ticket_num
+    def set_event(self, event: str) -> None:
+        self.event = event
+    def set_price(self, price: float) -> None:
+        self.price = price
+    def set_is_group(self, is_group: bool) -> None:
+        self.is_group = is_group
 
