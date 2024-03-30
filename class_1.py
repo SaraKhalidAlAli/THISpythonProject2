@@ -20,8 +20,8 @@ class Art:
     def get_history_significance(self) -> str:
         return self.history_significance
 
-    def get_date_produced(self) -> str:
-        return self.date_produced
+    def get_dateproduced(self) -> str:
+        return self.dateproduced
 
 #setter fucntions for the attributes in the uml class
     def set_title(self):
@@ -33,5 +33,5 @@ class Art:
     def set_history_significance(self):
         self.history_significance= history_significance
 
-    def set_date_produced(self):
-        self.date_produced= date_produced
+    def set_dateproduced(self):
+        self.dateproduced= dateproduced
