@@ -56,3 +56,9 @@ print("\n-----------------------------------------------------------------------
 #here I mixed the test cases of The purchase of tickets by an individual or tour group for an event-
 #-and with "display of payment receipts for purchasing (one or more) tickets. The final bill should be presented to the customer upon completion of the purchase."
 # where we have test cases 3, 4, 5, 6; I just wanted the output to look nice :)
+
+def purchase_tickets():
+    adult_customer = Customer("123", "adult@example.com", 30)
+    child_customer = Customer("456", "child@example.com", 10)
+    senior_customer = Customer("789", "senior@example.com", 70)
+    group_customer = Customer("101", "group@example.com", 25)
