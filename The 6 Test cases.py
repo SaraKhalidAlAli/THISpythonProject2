@@ -77,10 +77,40 @@ def purchase_tickets():
     group_ticket_price = 63.0 * 0.5  # 50% discount for groups
 
 
-    #creating the ticket onjects for each customer for the test case to look at the different recipes people get
+    #creating the ticket objects for each customer for the test case to look at the different recipes people get
     adult_ticket = Ticket(1, event_name, adult_ticket_price, False)
     child_ticket = Ticket(2, event_name, child_ticket_price, False)
     senior_ticket = Ticket(3, event_name, senior_ticket_price, False)
     group_ticket = Ticket(4, event_name, group_ticket_price, True)
 
+    #provideing output so we can see the purchase of tickets by an individual or tour group for an event andddd recipes
+    print("Tickets purchased:")
+    print("Adult Ticket:")
+    print("- Customer ID:", adult_customer.get_id())
+    print("- Event:", adult_ticket.get_event())
+    print("- Price:", adult_ticket.get_price())
+    print("- Group Ticket:", "Yes" if adult_ticket.is_group else "No")
+    print("-----------------")
+    # Output for Child Ticket
+    print("Child Ticket:")
+    print("- Customer ID:", child_customer.get_id())
+    print("- Event:", child_ticket.get_event())
+    print("- Price:", child_ticket.get_price())
+    print("- Group Ticket:", "Yes" if child_ticket.is_group else "No")
+    print("-----------------")
+    # Output for Senior Ticket
+    print("Senior Ticket:")
+    print("- Customer ID:", senior_customer.get_id())
+    print("- Event:", senior_ticket.get_event())
+    print("- Price:", senior_ticket.get_price())
+    print("- Group Ticket:", "Yes" if senior_ticket.is_group else "No")
+    print("-----------------")
+    # Output for Group Ticket
+    print("Group Ticket:")
+    print("- Customer ID:", group_customer.get_id())
+    print("- Event:", group_ticket.get_event())
+    print("- Price:", group_ticket.get_price())
+    print("- Group Ticket:", "Yes" if group_ticket.is_group else "No")
 
+# Run the test case
+purchase_tickets()
