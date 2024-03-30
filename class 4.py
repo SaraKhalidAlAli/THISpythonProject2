@@ -21,9 +21,10 @@ class Customer:
 
     def set_id(self, id: str):
         self.id = id
-
+    #setting customer ID to the provided value
     def set_email(self, email: str):
         self.email = email
-
+    #setting ID to the provided value
     def set_age(self, age: int):
         self.age = age
+    #setting age to the provided value
