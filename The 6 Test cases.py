@@ -21,7 +21,7 @@ def test_add_art():
         print("- Name:", artwork.get_title())
         print("  Artist:", artwork.get_artist())
         print("  History Significance:", artwork.get_history_significance())
-        print("  Date Produced:", artwork.get_date_produced(), "\n")
+        print("  Date Produced:", artwork.get_dateproduced(), "\n")
 
 # Run the test case
 test_add_art()
