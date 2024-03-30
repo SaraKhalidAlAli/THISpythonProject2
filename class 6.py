@@ -26,15 +26,12 @@ class EventWebsite:
     def set_event_name(self, event_name: str) -> None:
         # Update the name of the event with the provided value
         self.event_name = event_name
-
     def set_event_description(self, event_description: str) -> None:
         #updating the description of the event with the provided value
         self.event_description = event_description
-
     def set_url(self, url: str) -> None:
         #updating the URL of the event with the provided value
         self.url = url
-
     def set_location(self, location: str) -> None:
         self.location = location
         # updating the location of the event with the provided value
