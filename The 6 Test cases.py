@@ -1,5 +1,8 @@
 #First test case
 
+#importing from the other files
+from class_2 import Artist
+
 def test_add_art():
     artist = Artist("Leonardo da Vinci", "Italian") #artist object
 
@@ -20,8 +23,8 @@ def test_add_art():
         print("  History Significance:", artwork.get_history_significance())
         print("  Date Produced:", artwork.get_date_produced(), "\n")
 
-
-
+# Run the test case
+test_add_art()
 
 
 
