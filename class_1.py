@@ -11,8 +11,8 @@ class Art:
         return f"Title: {self.title}, Artist: {self.artist}, History significance: {self.history_significance}, Date Created: {self.dateproduced}" #return statement for attributes "
 
 #getter fucntions for the attributes in the uml class
-    def get_name(self) -> str:
-        return self.name
+    def get_title(self) -> str:
+        return self.title
 
     def get_artist(self) -> str:
         return self.artist
@@ -24,8 +24,8 @@ class Art:
         return self.date_produced
 
 #setter fucntions for the attributes in the uml class
-    def set_name(self):
-        self.name= name
+    def set_title(self):
+        self.title= title
 
     def set_artist(self):
         self.artist= artist

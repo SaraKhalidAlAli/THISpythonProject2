@@ -2,7 +2,7 @@
 
 #importing from the other files
 from class_2 import Artist
-from class
+from class_1 import Art
 def test_add_art():
     artist = Artist("Leonardo da Vinci", "Italian") #artist object
 
@@ -11,13 +11,13 @@ def test_add_art():
     artwork2 =Art("The Last Supper", "Leonardo da Vinci", "A mural painting depicting the Last Supper of Jesus", "1495–1498")
 
   #adding the artworks to the museum here
-    artist.add_artwork(artwork1)
-    artist.add_artwork(artwork2)
+    artist.add_artworks(artwork1)
+    artist.add_artworks(artwork2)
 
     # Output
     print("<</*Louvre Museum Event*\>> \n")
     print("New artworks added to the museum:")
-    for artwork in artist.get_artworks():
+    for artwork in artist.set_artworks():
         print("- Name:", artwork.get_name())
         print("  Artist:", artwork.get_artist())
         print("  History Significance:", artwork.get_history_significance())
