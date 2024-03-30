@@ -11,6 +11,15 @@ def test_add_art():
     artist.add_artwork(artwork1)
     artist.add_artwork(artwork2)
 
+    # Output
+    print("<</*Louvre Museum Event*\>> \n")
+    print("New artworks added to the museum:")
+    for artwork in artist.get_artworks():
+        print("- Name:", artwork.get_name())
+        print("  Artist:", artwork.get_artist())
+        print("  History Significance:", artwork.get_history_significance())
+        print("  Date Produced:", artwork.get_date_produced(), "\n")
+
 
 
 
