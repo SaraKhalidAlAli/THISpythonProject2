@@ -10,12 +10,13 @@ class EventWebsite:
 #Getter functions for all the attributes
     def get_event_name(self) ->str:
         return self.event_name
-
-
+    #returning name of event
     def get_event_description(self) -> str:
-
-
+        return self.event_description
+    #returning description of the event
     def get_url(self) -> str:
-
-
+        return self.url
+    #returning the URL of the event
     def get_location(self) -> str:
+        return self.location
+    #returning the location of the event
