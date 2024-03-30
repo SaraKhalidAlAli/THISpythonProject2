@@ -25,10 +25,14 @@ class Ticket:
 
     def set_ticket_num(self, ticket_num: int) -> None:
         self.ticket_num = ticket_num
+    #setting the ticket number to the provided value
     def set_event(self, event: str) -> None:
         self.event = event
+    # setting the event name to the provided value
     def set_price(self, price: float) -> None:
         self.price = price
+    #seeting the price to the provided value
     def set_is_group(self, is_group: bool) -> None:
         self.is_group = is_group
+    #setting this attribute to indicate if the ticket is for a group
 
