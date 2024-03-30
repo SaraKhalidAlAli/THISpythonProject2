@@ -11,4 +11,4 @@ class Ticket:
 
     #getter functions for retrieving attributes values
 
-    def
+    def get_ticket_num(self) ->int:
